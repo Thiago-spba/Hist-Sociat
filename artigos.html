@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos - História da Humanidade na Sociedade</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f9e8d0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ff6b6b;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px #ff9999;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+        .nav a {
+            background-color: #4ecdc4;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #45b7aa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #ff6b6b;
+            text-align: center;
+            font-size: 2em;
+        }
+        .artigos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .artigo-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .artigo-card:hover {
+            transform: translateY(-5px);
+        }
+        .artigo-card h3 {
+            color: #ff6b6b;
+            margin-top: 0;
+        }
+        .btn-ler {
+            display: inline-block;
+            background-color: #4ecdc4;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .btn-ler:hover {
+            background-color: #45b7aa;
+        }
+        footer {
+            background-color: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>História da Humanidade na Sociedade</h1>
+        <nav class="nav">
+            <a href="index.html">INÍCIO</a>
+            <a href="sobre.html">SOBRE</a>
+            <a href="artigos.html">ARTIGOS</a>
+            <a href="contato.html">CONTATO</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Artigos Fascinantes</h2>
+        <div class="artigos-grid">
+            <article class="artigo-card">
+                <h3>A Revolução Neolítica</h3>
+                <p>Descubra como a agricultura transformou radicalmente a sociedade humana e deu origem às primeiras civilizações.</p>
+                <a href="revolucao-neolitica.html" class="btn-ler">Ler mais</a>
+            </article>
+            <article class="artigo-card">
+                <h3>O Renascimento</h3>
+                <p>Explore o período de renascimento cultural que revolucionou as artes, ciências e o pensamento na Europa.</p>
+                <a href="renascimento.html" class="btn-ler">Ler mais</a>
+            </article>
+            <article class="artigo-card">
+                <h3>A Era Espacial</h3>
+                <p>Viaje através da história da exploração espacial, desde os primeiros satélites até as missões a Marte.</p>
+                <a href="era-espacial.html" class="btn-ler">Ler mais</a>
+            </article>
+            <article class="artigo-card">
+                <h3>A Revolução Industrial</h3>
+                <p>Analise o impacto das inovações tecnológicas que transformaram a produção e a sociedade moderna.</p>
+                <a href="revolucao-industrial.html" class="btn-ler">Ler mais</a>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 História da Humanidade. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
